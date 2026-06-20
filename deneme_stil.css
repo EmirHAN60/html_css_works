@@ -1,0 +1,134 @@
+#topContainer_div {
+    justify-content: center;
+}
+
+.top_div .english_btn {
+    margin-right: 7%; margin-left: 10%;
+}
+
+.top_div input {
+    height: 25px; width: 400px; 
+    background-color: rgb(232, 244, 248); 
+    border: 1px solid grey; 
+    border-radius: 3px;
+}
+
+.top_div .account_btn {
+    border:none;
+    margin-left: 2%;
+}
+
+.top_div .account_btn:hover {
+    color: darkgray;
+}
+
+.top_div .demo_btn {
+    color: white;
+    background-color: darkorange;
+    width: 100px;
+    height: 35px;
+    margin-left: 2%;
+    border: none;
+    border-radius: 5px;
+}
+
+.top_div .starting_btn {
+    color: darkorange;
+    width: 120px;
+    height: 35px;
+    margin-left: 1%;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+}
+
+.hero_div {
+    background-color: rgb(100, 175, 175);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.hero_div h1{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.hero_div input{
+    width: 600px;
+    height: 45px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.secondTop_div {
+    margin-left: 100px;
+    padding: 20px 20px;
+    gap: 5px;
+    color: rgb(80, 90, 100);
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.secondTop_div .combo_boxes {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 150px;
+}
+
+/* Genel yazı tipi ayarı */
+.articles_section {
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+/* Başlığı tam ortalamak için */
+#articles_title {
+    text-align: center; /* Metni yatayda ortalar */
+    color: #2c3e50; /* Orijinal renge yakın bir koyu gri/mavi */
+    font-size: 24px;
+    margin-bottom: 30px; /* Alttaki listelerle olan mesafe */
+}
+
+/* Sadece iki listenin yan yana durmasını sağlayan kısım */
+#mid_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* İki sütunu sayfaya göre ortalar */
+    gap: 80px; /* İki sütun arasındaki geniş boşluk */
+}
+
+/* Tekrarlanan kodları engellemek için iki div'i birlikte seçtik */
+.articlesDiv_1, .articlesDiv_2 {
+    display: flex;
+    flex-direction: column; /* Butonların alt alta hizalanmasını sağlar */
+    align-items: flex-start; /* Buton metinlerini sola yaslar */
+}
+
+/* Ortak buton stilleri */
+.articlesDiv_1 button, .articlesDiv_2 button {
+    color: #008489; /* Görseldeki turkuaza yakın link rengi */
+    font-size: 14px;
+    font-weight: 600;
+    margin: 8px 0; /* Sadece alt ve üst boşluk */
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left; /* Uzun metinlerin sola yaslanması için */
+    padding: 0;
+}
+
+/* Üzerine gelindiğinde altı çizilsin (isteğe bağlı, link efekti için) */
+.articlesDiv_1 button:hover, .articlesDiv_2 button:hover {
+    text-decoration: underline;
+}
+
