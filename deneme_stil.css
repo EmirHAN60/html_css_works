@@ -105,6 +105,7 @@
     flex-direction: row;
     justify-content: center; /* İki sütunu sayfaya göre ortalar */
     gap: 80px; /* İki sütun arasındaki geniş boşluk */
+    padding-bottom: 50px;
 }
 
 /* Tekrarlanan kodları engellemek için iki div'i birlikte seçtik */
@@ -132,3 +133,30 @@
     text-decoration: underline;
 }
 
+.menu_div {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 200px;
+    padding-top: 70px;
+}
+
+.menu_div .topMenu_div, .menu_div .bottomMenu_div {
+    display: flex;
+    flex-direction: row;    
+    gap: 30px;
+}
+
+.menu_div .menu_btn {
+    width: 200px;
+    height: 200px;
+    border: none;
+    gap: 100px;
+    background-color: white;
+    font-size: 25px;
+    color: dimgray;
+}
